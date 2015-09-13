@@ -493,7 +493,7 @@ EndSection
                 wm_cmd = ['marco', '--sm-disable']
             elif osextras.find_on_path('metacity'):
                 wm_cmd = ['metacity', '--sm-disable']
-            elif osextras.find_on_path('gala');
+            elif osextras.find_on_path('gala'):
                 wm_cmd = ['gala']
             elif osextras.find_on_path('xfwm4'):
                 wm_cmd = ['xfwm4', '--compositor=off', '--sm-client-disable']
